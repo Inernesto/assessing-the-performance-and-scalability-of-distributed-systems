@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 
 public class LiftRideClientProfilingPerformance {
 
-    private static final String SERVER_URL = "http://140.238.158.223:8080/skiers/123/seasons/2024/days/6900/skiers/12345"; // Ensure this is correct
+    private static final String SERVER_URL = "http://your-server-endpoint-here/skiers/123/seasons/2024/days/6900/skiers/12345"; // Ensure this is correct
     private static final int NUM_THREADS = 10;
     private static final int NUM_REQUESTS_PER_THREAD = 1000;
     private static final int MAX_RETRY_ATTEMPTS = 5;
