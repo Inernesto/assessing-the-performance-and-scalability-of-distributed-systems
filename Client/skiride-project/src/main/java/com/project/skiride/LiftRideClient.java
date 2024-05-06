@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class LiftRideClient {
 
-    private static final String SERVER_URL = "http://140.238.158.223:8080/skiers/123/seasons/2024/days/6900/skiers/12345"; // Replace with your server URL
+    private static final String SERVER_URL = "http://your-server-endpoint-here/skiers/123/seasons/2024/days/6900/skiers/12345"; // Replace with your server URL
     private static final int INITIAL_NUM_THREADS = 10;
     private static final int NUM_REQUESTS_PER_THREAD = 1000;
     private static final int MAX_RETRY_ATTEMPTS = 5;
