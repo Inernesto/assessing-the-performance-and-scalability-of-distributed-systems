@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class LiftRideClientLittleLawTest {
 
-    private static final String SERVER_URL = "http://140.238.158.223:8080/skiers/123/seasons/2024/days/6900/skiers/12345";
+    private static final String SERVER_URL = "http://your-server-endpoint-here/skiers/123/seasons/2024/days/6900/skiers/12345";
     private static final int NUM_REQUESTS = 500; // Step 1: Number of requests to send
     private static final Random random = new Random();
     private static final int MAX_RETRY_ATTEMPTS = 5;
